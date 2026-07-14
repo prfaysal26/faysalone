@@ -51,10 +51,10 @@ background-image:url(banner.jpg);
     margin-bottom:30px;
 }
 .maincard{
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    gap: 20px;px;
+    gap: 20px;
 
 
     
@@ -85,4 +85,36 @@ section title, section p, section h3{
 {
      gap:0px;
      margin: 5px;
+    }
+    .pricemain{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    }
+   .price
+   {
+        border:.5px solid rgb(233, 225, 225);
+        font-weight: lighter;
+        text-align: left;
+        margin: 20px;
+        padding: 10px;
+   }
+        .price p{
+            font-size: 15px;
+        
+        }
+    
+    .price ul{
+        text-align: left;
+        font-size: 12px;
+        gap: 5px;
+        color: rgb(56, 54, 54);
+
+    }
+    li{
+        padding-bottom: 7px ;
     }
