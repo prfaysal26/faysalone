@@ -171,6 +171,10 @@ section title, section p, section h3{
             color: rgb(98, 98, 151);
             margin:0px 20px 30px 0px;
         }
+        .lasthr{
+            border: 1px solid rgb(61, 59, 59);
+            width: 500px;
+        }
 
        .lastfooter
        {
@@ -178,7 +182,7 @@ section title, section p, section h3{
         flex-direction: row;
         justify-content: space-between;
         padding: 50px 200px;
-                background: rgb(146, 146, 185);
+                background: rgb(32, 32, 37);
                 border: 1px solid rgb(53, 36, 36);
                 background-size: cover;
        }
@@ -186,6 +190,9 @@ section title, section p, section h3{
        {
         align-items: left;
         
+       }
+       .cp{
+        color: #b9b5b5;
        }
        .blogo
        {
@@ -198,4 +205,129 @@ height: 100px;
     justify-content: space-between;
     flex-direction: column;
     align-items:flex-start;
+}
+
+
+
+/* copy by ai */
+.footer{
+    background:#111827;
+    color:#fff;
+    padding:70px 10%;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:40px;
+}
+
+.footer-column h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.footer-column h3{
+    margin-bottom:20px;
+    font-size:22px;
+}
+
+.footer-column p{
+    color:#cbd5e1;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.footer-column ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-column ul li{
+    margin-bottom:12px;
+}
+
+.footer-column ul li a{
+    color:#cbd5e1;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-column ul li a:hover{
+    color:#38bdf8;
+    padding-left:5px;
+}
+
+.newsletter{
+    margin-top:70px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.1);
+    padding-top:50px;
+}
+
+.newsletter h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.newsletter p{
+    color:#cbd5e1;
+    max-width:600px;
+    margin:auto;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.newsletter form{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.newsletter input{
+    width:350px;
+    max-width:100%;
+    padding:15px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.newsletter button{
+    padding:15px 30px;
+    border:none;
+    background:#0ea5e9;
+    color:#fff;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter button:hover{
+    background:#0284c7;
+}
+
+@media(max-width:768px){
+
+.footer{
+    padding:60px 8%;
+}
+
+.footer-column{
+    text-align:center;
+}
+
+.newsletter form{
+    flex-direction:column;
+    align-items:center;
+}
+
+.newsletter button{
+    width:350px;
+    max-width:100%;
+}
+
 }
